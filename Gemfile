@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 gem "capybara", "~> 3.22.0"
 gem "cucumber", "~> 3.1.2"
