@@ -1,5 +1,5 @@
 ---
-default: -p dev -p firefox -p html -p progress
+default: -p dev -p firefox -p html -p pretty
 ci: -p dev -p headless -p json -p pretty
 dev: ENV_TYPE=dev
 dev_toolbox: ENV_TYPE=dev_toolbox
