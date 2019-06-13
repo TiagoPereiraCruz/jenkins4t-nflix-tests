@@ -5,7 +5,7 @@ Funcionalidade: Busca
     Para que eu possa verificar se existe o filme desejado
     Sendo um gestor de catálogo
     Posso pesquisar items pelo titulo
-    
+
     Cenario: Busca por titulo
 
         Dado que temos "batman_trilogy" do catalogo
@@ -19,4 +19,4 @@ Funcionalidade: Busca
     Cenario: Busca 404
 
         Quando eu faço uma busca pelo termo "American Pie"
-        Então devo ver a mensagem "Puxa! não encontramos nada aqui :("
+        Então devo ver a mensagem "Opss - Puxa! não encontramos nada aqui :("
