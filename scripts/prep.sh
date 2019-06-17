@@ -1,9 +1,9 @@
 
 # Docker ToolBox
-#DOCKER_IP=192.168.99.100
+DOCKER_IP=192.168.99.100
 
 # Docker normal
-DOCKER_IP=localhost
+#DOCKER_IP=localhost
 
 echo "ZERANDO a Vida do Docker"
 docker rm -f $(docker ps -a -q)

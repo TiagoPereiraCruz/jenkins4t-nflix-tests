@@ -3,7 +3,7 @@ Before do
   @movie_page = MoviePage.new
   @sidebar = SideBarView.new
 
-  page.current_window.resize_to(1920, 1080)
+  page.current_window.resize_to(1520, 800)
 end
 
 Before("@login") do
@@ -11,4 +11,3 @@ Before("@login") do
   @login_page.go
   @login_page.with(user["email"], user["pass"])
 end
-

@@ -1,9 +1,9 @@
 
 REM Docker ToolBox
-REM DOCKER_IP=192.168.99.100
+SET DOCKER_IP=192.168.99.100
 
 REM Docker normal
-set DOCKER_IP=localhost
+REM DOCKER_IP=localhost
 
 echo "ZERANDO a Vida do Docker"
 powershell docker rm -f $(docker ps -a -q)
